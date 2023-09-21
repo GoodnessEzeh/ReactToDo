@@ -86,7 +86,7 @@ class App extends Component {
                         fontWeight: "bolder",
                     }}
                 >
-                    TODO LIST
+                    タスクマネージャー
                 </Row>
   
                 <hr />
@@ -109,7 +109,7 @@ class App extends Component {
                                     className="mt-2"
                                     onClick={() => this.addItem()}
                                 >
-                                    ADD
+                                    追加
                                 </Button>
                             </InputGroup>
                         </InputGroup>
@@ -134,11 +134,11 @@ class App extends Component {
                                         <Button style={{marginRight:"10px"}}
                                         variant = "light"
                                         onClick={() => this.deleteItem(item.id)}>
-                                          Delete
+                                          削除
                                         </Button>
                                         <Button variant = "light"
                                         onClick={() => this.editItem(index)}>
-                                          Edit
+                                          編集
                                         </Button>
                                         </span>
                                     </ListGroup.Item>
